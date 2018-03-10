@@ -18,9 +18,9 @@ hello =
 
 {-| Returns the sum of every integer in the function
 
-    Main.sum [ 1, 2, 3, 4, 5 ] == 15
-    Main.sum [ 10 ] == 10
-    Main.sum [] == 0
+    Hello.sum [ 1, 2, 3, 4, 5 ] == 15
+    Hello.sum [ 10 ] == 10
+    Hello.sum [] == 0
 
 -}
 sum : List Int -> Int
